@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  background:#01579b;
+  /* background:#f7f7f9; */
+}
+html{
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+h2 {
+  color: white;
+}
+h4{
+  color: white;
+}
+h3{
+  color: black;
+}
+a {
+  color: f7f7f9;
+}
+Glyphicon {
+  color: white;
+}
+.nav-tabs {
+    border-bottom: 1px solid white;
+}
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+.navbar-inverse {
+    background-color: #05406f;
+    border-color: #113756;
+}
