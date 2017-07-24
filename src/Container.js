@@ -127,21 +127,21 @@ class Container extends Component {
 										<Row>
 										<Col md={12}>	
 											<h4>Todo </h4>
-											<FormControl type='text'
+											<FormControl type='text' required
 												onChange={this.changeTopic.bind(this)}
 												value={this.state.topic}
 											/>
 										</Col>
 										<Col md={12}>
 											<h4>Description </h4>
-											<FormControl type='text' componentClass="textarea" 
+											<FormControl type='text' componentClass="textarea" required
 												onChange={this.changeDescription.bind(this)}
 												value={this.state.description}
 											/>
 										</Col>
 										<Col md={6}>
 											<h4>Date </h4>
-											<FormControl type='date'
+											<FormControl type='date' required
 												onChange={this.changeDate.bind(this)}
 												value={this.state.date}
 											/>
@@ -163,21 +163,21 @@ class Container extends Component {
 									<Row>
 									<Col md={12}>
 										<h4>Todo </h4>
-										<FormControl type='text'
+										<FormControl type='text' required
 											onChange={this.changeTopic.bind(this)}
 											value={this.state.topic}
 										/>
 									</Col>
 									<Col md={12}>
 										<h4>Description </h4>
-										<FormControl type='text' componentClass="textarea" 
+										<FormControl type='text' componentClass="textarea" required
 											onChange={this.changeDescription.bind(this)}
 											value={this.state.description}
 										/>
 									</Col>
 									<Col md={6}>
 										<h4>Date </h4>
-										<FormControl type='date'
+										<FormControl type='date' required
 											onChange={this.changeDate.bind(this)}
 											value={this.state.date}
 										/>

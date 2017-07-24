@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {NavBrand, NavMenu, Button, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap'
 
 class Navbar extends Component {
   render() {
